@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=3 uid="uid://b28y412e8tws"]
 
-[ext_resource type="Script" path="res://scenes/enemies/clanger/e_clanger.gd" id="1_fbqvk"]
+[ext_resource type="Script" uid="uid://4dsyaim4yfk5" path="res://scenes/enemies/clanger/e_clanger.gd" id="1_fbqvk"]
 [ext_resource type="ArrayMesh" uid="uid://dc3g3quope3hs" path="res://assets/models/enemy/clanger/head.obj" id="1_g3qjx"]
 [ext_resource type="ArrayMesh" uid="uid://cbm3hdsxtec5w" path="res://assets/models/enemy/clanger/leftFoot.obj" id="2_1jy03"]
 [ext_resource type="ArrayMesh" uid="uid://crvj6gkfr6cjt" path="res://assets/models/enemy/clanger/leftLeg.obj" id="3_6lqky"]
@@ -854,10 +854,10 @@ tracks/13/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2kn50"]
 _data = {
-"RESET": SubResource("Animation_d3a0i"),
-"attack": SubResource("Animation_gy0wj"),
-"idle": SubResource("Animation_0kc8m"),
-"run": SubResource("Animation_32xkf")
+&"RESET": SubResource("Animation_d3a0i"),
+&"attack": SubResource("Animation_gy0wj"),
+&"idle": SubResource("Animation_0kc8m"),
+&"run": SubResource("Animation_32xkf")
 }
 
 [sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_6lybw"]

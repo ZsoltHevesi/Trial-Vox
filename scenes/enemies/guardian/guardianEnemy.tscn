@@ -1,6 +1,6 @@
 [gd_scene load_steps=48 format=3 uid="uid://3xoln0dfc6j0"]
 
-[ext_resource type="Script" path="res://scenes/enemies/guardian/guardianEnemy.gd" id="1_b0dsg"]
+[ext_resource type="Script" uid="uid://dksreiow1caqe" path="res://scenes/enemies/guardian/guardianEnemy.gd" id="1_b0dsg"]
 [ext_resource type="Animation" uid="uid://580swu75bkg6" path="res://scenes/player/playerAnimations/RESET.res" id="2_y1epm"]
 [ext_resource type="Animation" uid="uid://cvldq075pnnw5" path="res://scenes/player/playerAnimations/flintlock_aim.res" id="3_4gloh"]
 [ext_resource type="Animation" uid="uid://b0p0qmyqg6as1" path="res://scenes/player/playerAnimations/flintlock_shoot.res" id="4_eburv"]
@@ -30,14 +30,14 @@ height = 1.8
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_g6ovt"]
 _data = {
-"RESET": ExtResource("2_y1epm"),
-"flintlock_aim": ExtResource("3_4gloh"),
-"flintlock_shoot": ExtResource("4_eburv"),
-"idle": ExtResource("5_uc7qg"),
-"in_air": ExtResource("6_f3nj7"),
-"run": ExtResource("7_0r1kw"),
-"swordAttack1": ExtResource("8_2rk56"),
-"walk": ExtResource("9_0eq5q")
+&"RESET": ExtResource("2_y1epm"),
+&"flintlock_aim": ExtResource("3_4gloh"),
+&"flintlock_shoot": ExtResource("4_eburv"),
+&"idle": ExtResource("5_uc7qg"),
+&"in_air": ExtResource("6_f3nj7"),
+&"run": ExtResource("7_0r1kw"),
+&"swordAttack1": ExtResource("8_2rk56"),
+&"walk": ExtResource("9_0eq5q")
 }
 
 [sub_resource type="AnimationNodeBlend3" id="AnimationNodeBlend3_0gny3"]
@@ -46,9 +46,11 @@ _data = {
 xfade_time = 0.1
 input_0/name = "aiming"
 input_0/auto_advance = false
+input_0/break_loop_at_end = false
 input_0/reset = true
 input_1/name = "notAiming"
 input_1/auto_advance = false
+input_1/break_loop_at_end = false
 input_1/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_lk2no"]
@@ -58,9 +60,11 @@ animation = &"flintlock_aim"
 xfade_time = 0.2
 input_0/name = "inAir"
 input_0/auto_advance = false
+input_0/break_loop_at_end = false
 input_0/reset = true
 input_1/name = "onGround"
 input_1/auto_advance = false
+input_1/break_loop_at_end = false
 input_1/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8jfl2"]

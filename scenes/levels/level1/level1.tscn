@@ -1,10 +1,10 @@
 [gd_scene load_steps=23 format=3 uid="uid://cmw7fwjm363s7"]
 
-[ext_resource type="Script" path="res://scenes/levels/level1/graphicsWorldEnvironment.gd" id="1_d7ia6"]
-[ext_resource type="Script" path="res://scripts/levelWorld.gd" id="1_ems3p"]
+[ext_resource type="Script" uid="uid://dtngjtbfjl8aj" path="res://scenes/levels/level1/graphicsWorldEnvironment.gd" id="1_d7ia6"]
+[ext_resource type="Script" uid="uid://bqti4y3d6v7dj" path="res://scripts/levelWorld.gd" id="1_ems3p"]
 [ext_resource type="PackedScene" uid="uid://bqhd5qtvwp261" path="res://scenes/tile scenes/chateau scene/chateau.tscn" id="1_f1ho0"]
 [ext_resource type="PackedScene" uid="uid://frtgj5uj6n7s" path="res://scenes/player/player.tscn" id="2_cy5vs"]
-[ext_resource type="Script" path="res://scenes/levels/level1/graphicsDirectionalLight3D.gd" id="2_nrich"]
+[ext_resource type="Script" uid="uid://d3dbk50ylfb25" path="res://scenes/levels/level1/graphicsDirectionalLight3D.gd" id="2_nrich"]
 [ext_resource type="PackedScene" uid="uid://b28y412e8tws" path="res://scenes/enemies/clanger/e_clanger.tscn" id="3_f8dnu"]
 [ext_resource type="ArrayOccluder3D" uid="uid://cxlmser8kneuq" path="res://scenes/levels/level1/level1.occ" id="4_jsvvb"]
 [ext_resource type="PackedScene" uid="uid://bshwh664qojd0" path="res://scenes/tile scenes/hallways/castleHallways/castleHallway.tscn" id="6_xm1sj"]

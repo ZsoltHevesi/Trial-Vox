@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://c7icj6kdtuvt3"]
 
-[ext_resource type="Script" path="res://scenes/player/playerGear_Scenes/sword.gd" id="1_sgp54"]
+[ext_resource type="Script" uid="uid://c8v7e301jf7wj" path="res://scenes/player/playerGear_Scenes/sword.gd" id="1_sgp54"]
 [ext_resource type="ArrayMesh" uid="uid://c03s41ynmq2yq" path="res://assets/models/weapon models/longSword.obj" id="1_uft40"]
 [ext_resource type="Material" uid="uid://dkoemqexmihbp" path="res://assets/materials/diffuse/brownDIFF1.tres" id="3_2r065"]
 [ext_resource type="Material" uid="uid://cjeu6hd70w1o6" path="res://assets/materials/metallic/greyMET1.tres" id="3_a3fnc"]

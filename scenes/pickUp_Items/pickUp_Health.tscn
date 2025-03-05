@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://c8ekcp1gti707"]
 
-[ext_resource type="Script" path="res://scripts/pickUpScripts/healthPickup.gd" id="1_ogl83"]
+[ext_resource type="Script" uid="uid://dqmii5n2ctuar" path="res://scripts/pickUpScripts/healthPickup.gd" id="1_ogl83"]
 [ext_resource type="ArrayMesh" uid="uid://cajexid2ysms5" path="res://assets/models/pickUps/healthPickup.obj" id="2_vgd76"]
 [ext_resource type="Material" uid="uid://cvnsxlftcux8d" path="res://assets/materials/transparent/clearGlass_Refr_Single.tres" id="3_gr5cj"]
 [ext_resource type="Material" uid="uid://dkoemqexmihbp" path="res://assets/materials/diffuse/brownDIFF1.tres" id="4_uei4b"]
@@ -67,8 +67,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_lae6k"]
 _data = {
-"RESET": SubResource("Animation_qa8qs"),
-"item_float": SubResource("Animation_7yixx")
+&"RESET": SubResource("Animation_qa8qs"),
+&"item_float": SubResource("Animation_7yixx")
 }
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_jkgaw"]

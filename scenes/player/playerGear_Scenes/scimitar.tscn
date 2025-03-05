@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://d3g8x4rck5f82"]
 
-[ext_resource type="Script" path="res://scenes/player/playerGear_Scenes/sword.gd" id="1_wqre3"]
+[ext_resource type="Script" uid="uid://c8v7e301jf7wj" path="res://scenes/player/playerGear_Scenes/sword.gd" id="1_wqre3"]
 [ext_resource type="ArrayMesh" uid="uid://bi3ki6p2m6rhb" path="res://assets/models/weapon models/scimitar.obj" id="2_ycrfv"]
 [ext_resource type="Material" uid="uid://dkoemqexmihbp" path="res://assets/materials/diffuse/brownDIFF1.tres" id="3_8c61e"]
 [ext_resource type="Material" uid="uid://cjeu6hd70w1o6" path="res://assets/materials/metallic/greyMET1.tres" id="4_xjb6s"]
